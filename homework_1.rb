@@ -30,16 +30,3 @@ variable_1 = arr[1]
 variable_2 = arr[0]
 print "variable_1 = ", variable_1, " variable_2 = ", variable_2
 
-p "fifth task"
-hash = {
-1    => 2,
-nil  => 3,
-'kEy' => :value_1,
-:key  => :value_2,
-Key:    :value_3
- }
-
- puts hash.count { |k, _| k.to_s.downcase.include?('key') }
- 
- 
-
