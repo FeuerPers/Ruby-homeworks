@@ -12,8 +12,8 @@ puts "In #{age} years you'll be 100"
 p "third task"
 puts "Please enter 3 hobbies"
 arr = gets.chomp
-b = arr.split(/,/)
-c = b.shuffle.first
+split_array = arr.split(/,/)
+random_hobby = b.shuffle.first
 puts "Tell me something about #{c}"
 
 p "fourth task"
