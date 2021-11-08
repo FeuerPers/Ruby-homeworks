@@ -11,7 +11,6 @@ unless animals.has_key?(animal)
     puts "Incorrect input"
 end 
 
-
 puts "Second task"
 puts "Please type any number. Please, be aware that number should contain not more that one \"1\" :"
 input = gets.chomp
@@ -29,6 +28,7 @@ loop do
     end
 
 end
+
 
 =begin
 p "third task"
